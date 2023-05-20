@@ -1,0 +1,33 @@
+.Buttom-Toolbox {
+    position: relative;
+    top: auto;
+    left: auto;
+    height: 80px;
+    width: 80px;
+    white-space: nowrap;
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.Using-Tool {
+    border-left-color: rgba(45, 168, 212, 255);
+    border-right-color: rgba(45, 168, 212, 255);
+    border-top-color: rgba(45, 168, 212, 255);
+    border-bottom-color: rgba(45, 168, 212, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    transition-property: border-color;
+    transition-duration: 0.3s;
+}

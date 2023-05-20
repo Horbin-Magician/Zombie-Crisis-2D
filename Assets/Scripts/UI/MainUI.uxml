@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/MainStyle.uss?fileID=7433441132597879392&amp;guid=61f4387869e199d44a1d5f17d68f43a8&amp;type=3#MainStyle" />
+    <ui:VisualElement name="Background" style="position: relative; left: auto; top: auto; right: auto; bottom: auto; width: 100%; height: 100%; justify-content: space-between;">
+        <ui:VisualElement name="Top" />
+        <ui:VisualElement name="Bottom" style="bottom: 0; opacity: 1; width: 100%; justify-content: center; align-items: center; flex-direction: column;">
+            <ui:VisualElement name="HP_bac" style="height: 20px; width: 480px; background-color: rgb(156, 156, 156); font-size: 16px; opacity: 0.8;">
+                <ui:VisualElement name="HP_fore" style="height: 100%; width: 100%; background-color: rgb(255, 88, 88); transition-property: width; transition-duration: 0.3s;" />
+                <ui:Label text="100/100" display-tooltip-when-elided="true" name="HP_label" enable-rich-text="false" style="background-color: rgba(255, 255, 255, 0); -unity-text-align: upper-center; height: 100%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 16px; -unity-text-outline-color: rgba(0, 0, 0, 0); position: absolute; left: 0; right: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ToolboxList" style="flex-direction: row; opacity: 0.8;">
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox1" focusable="false" class="Buttom-Toolbox" />
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox2" focusable="false" class="Buttom-Toolbox" />
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox3" focusable="false" class="Buttom-Toolbox" />
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox4" focusable="false" class="Buttom-Toolbox" />
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox5" focusable="false" class="Buttom-Toolbox" />
+                <ui:Button text="空" display-tooltip-when-elided="true" name="Toolbox6" focusable="false" class="Buttom-Toolbox" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
